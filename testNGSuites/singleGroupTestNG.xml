@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <!-- Include beanshell code with in test tag.-->
+<method-selectors>
+  <method-selector>
+  <!-- It returns methods which satisfy  below condition -->
+     
+      <!-- <script language="beanshell"><![CDATA[
+       return groups.containsKey("Mac");]]></script> -->
+       
+       <script language="beanshell"><![CDATA[
+       return groups.containsKey("Window") || groups.containsKey("Linux") || groups.containsKey("Mac");
+     ]]></script>
+  </method-selector>
+</method-selectors>
+ 
+    <classes>
+      <class name="com.test.TestNG.MultipleGroups"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
