@@ -55,6 +55,8 @@ public class RelativeElements {
 		
 		WebElement secureDownloadLink = 
 				driver.findElement(RelativeLocator.withTagName("a").above(shadowDomElementLink).below(reDirectorLink));
+		
+		
 		secureDownloadLink.click();
 		
 		driver.get("http://admin:admin@the-internet.herokuapp.com/download_secure");

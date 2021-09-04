@@ -13,7 +13,6 @@ public class DataProviderFactory {
 	
 	static ReadAndWriteData dataobj=new ReadAndWriteData();
 	static String fileName = System.getProperty("user.dir") + "\\testData\\guestData.csv";
-	static String jsonFileName=System.getProperty("user.dir")+File.separator+"intermediatory.json";
 	
 	public String getUserName() {
 		return userName;

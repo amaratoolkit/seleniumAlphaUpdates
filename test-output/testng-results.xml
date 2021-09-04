@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="61" started-at="2021-03-31T09:28:34 IST" finished-at="2021-03-31T09:28:34 IST">
+    <groups>
+      <group name="regression">
+        <method signature="SampleTestUsingTestNG.test1(java.lang.String)[pri:0, instance:com.android.SampleTest.SampleTestUsingTestNG@2353b3e6]" name="test1" class="com.android.SampleTest.SampleTestUsingTestNG"/>
+        <method signature="SampleTestUsingTestNG.test3(java.lang.String, java.lang.String)[pri:0, instance:com.android.SampleTest.SampleTestUsingTestNG@2353b3e6]" name="test3" class="com.android.SampleTest.SampleTestUsingTestNG"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="SampleTestUsingTestNG.test1(java.lang.String)[pri:0, instance:com.android.SampleTest.SampleTestUsingTestNG@2353b3e6]" name="test1" class="com.android.SampleTest.SampleTestUsingTestNG"/>
+        <method signature="SampleTestUsingTestNG.test2(java.lang.String)[pri:0, instance:com.android.SampleTest.SampleTestUsingTestNG@2353b3e6]" name="test2" class="com.android.SampleTest.SampleTestUsingTestNG"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="SampleTestUsingTestNG.test4()[pri:0, instance:com.android.SampleTest.SampleTestUsingTestNG@2353b3e6]" name="test4" class="com.android.SampleTest.SampleTestUsingTestNG"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Default test" duration-ms="61" started-at="2021-03-31T09:28:34 IST" finished-at="2021-03-31T09:28:34 IST">
+      <class name="com.android.SampleTest.SampleTestUsingTestNG">
+        <test-method status="PASS" signature="test1(java.lang.String)[pri:0, instance:com.android.SampleTest.SampleTestUsingTestNG@2353b3e6]" name="test1" duration-ms="17" started-at="2021-03-31T09:28:34 IST" finished-at="2021-03-31T09:28:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://automationpractice.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2(java.lang.String)[pri:0, instance:com.android.SampleTest.SampleTestUsingTestNG@2353b3e6]" name="test2" duration-ms="2" started-at="2021-03-31T09:28:34 IST" finished-at="2021-03-31T09:28:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shivam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3(java.lang.String, java.lang.String)[pri:0, instance:com.android.SampleTest.SampleTestUsingTestNG@2353b3e6]" name="test3" duration-ms="1" started-at="2021-03-31T09:28:34 IST" finished-at="2021-03-31T09:28:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shivam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sivas]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:com.android.SampleTest.SampleTestUsingTestNG@2353b3e6]" name="test4" duration-ms="1" started-at="2021-03-31T09:28:34 IST" finished-at="2021-03-31T09:28:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- com.android.SampleTest.SampleTestUsingTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
